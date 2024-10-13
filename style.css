@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #0f141e;
+    background: #f1f1f1;
+}
+.container {
+    margin: auto;
+    max-width: 750px;
+    padding-top: 30px;
+}
+.avatar {
+    border-radius: 30px;
+    width: 200px;
+    height: 200px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+.info-content {
+    margin-left: 40px;
+}
+.info-text p {
+    font-style:normal;
+    font-weight: bold;
+    color: #86898f;
+    margin: 10px 0;
+}
+
+.social-text {
+    font-style:normal;
+    font-weight: bold;
+    color: black;
+}
+.social-text p {
+    margin: 5px 0;
+}
+.info-text h4 {
+    margin-bottom: 10px;
+}
+.btn {
+    background: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: inherit;
+}
+.btn:hover {
+    opacity: .6;
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+a:hover {
+    text-decoration: underline;
+    color: rgb(141, 141, 141);
+}
+a:active {
+    color: blue;
+}
+a:visited {
+    color:red;
+}
+.card {
+    border-radius: 20px;
+    margin: 10px 0;
+    padding: 15px 20px;
+    background: rgb(193, 191, 236);
+}
+.card h2 {
+    margin-bottom: 10px;
+}
+.wishlist {
+    background: #a5a5a5;
+    margin-bottom: 20px;
+}
+
+.list {
+    padding: 0 20px;
+}
+.list li {
+    color: #86898f;
+    margin-bottom: 10px;
+}
+
+.link-list {
+    list-style: none;
+    padding: 0;
+}
+.link-list li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+.table {
+    width: 100%;
+    text-align: left;
+}
+.table td {
+    padding-bottom: 10px;
+}
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color: #86898f;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group {
+    margin-right: 20px;
+    width: 50%;
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+/* Мобильные устройства (ширина до 650px) */
+@media (max-width: 650px) {
+    /* Стили для мобильных устройств */
+    .info {
+        display: block;
+        text-align: center;
+    }
+    .form-row {
+        display: block;
+    }
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }    
+}
